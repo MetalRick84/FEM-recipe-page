@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'Young-Serif';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
 :root {
     /* colors */
     --stone100: hsl(30, 54%, 90%);
@@ -11,7 +23,30 @@
     --rose800-a: hsla(332, 51%, 32%, 0.1);
     --rose50: hsl(330, 100%, 98%);
 
+    --clr-socondary: var(--brown800);
     --clr-bg-main: var(--stone100);
     --clr-bg-box: var(--rose800-a);
     --clr-box: var(--rose800);
+
+    /* fonts */
+    --ff-primary: 'Outfit';
+    --ff-secondary: 'Young-Serif';
+
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-secondary);
+
+    --fw-normal: 400;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    --fs-400: 1rem;
+    --fs-500: 1.5rem;
+    --fs-600: 2.5rem;
+
+    --fs-body: var(--fs-400);
+    --fs-headline: var(--fs-500);
+    --fs-title: var(--fs-600);
 }
+    @media  (1440px < width) {
+        
+    }

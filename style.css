@@ -23,6 +23,8 @@
     --rose800-a: hsla(332, 51%, 32%, 0.1);
     --rose50: hsl(330, 100%, 98%);
 
+    --clr-main: var(--stone600);
+    --clr-main-bold: var(--stone900);
     --clr-socondary: var(--brown800);
     --clr-bg-main: var(--stone100);
     --clr-bg-box: var(--rose800-a);

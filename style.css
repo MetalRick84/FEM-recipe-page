@@ -58,6 +58,7 @@
 
 /*************** UTILITY CLASSES *************/
 
+/* colors */
 .text-stone-100 { color: var(--stone-100); }
 .text-stone-150 { color: var(--stone-150); }
 .text-stone-600 { color: var(--stone-600); }
@@ -75,6 +76,9 @@
 .bg-rose-800 { background-color: var(--rose-800); }
 .bg-rose-800-alpha { background-color: var(--rose-800-alpha); }
 .bg-rose-50 { background-color: var(--rose-50); }
+
+/* fonts */
+.ff-heading { font-family: var(--ff-heading); }
 
 .fw-normal { font-weight: var(--fw-normal); }
 .fw-semi-bold { font-weight: var(--fw-semi-bold); }

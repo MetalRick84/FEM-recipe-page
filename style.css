@@ -11,13 +11,17 @@ h1,h2,h3,h4,h6 {
     font-weight: normal;
 }
 
+ul, ol {
+    list-style-position: inside;
+}
+
 /*************** FONT FACES *************/
 
 @font-face {
     font-family: 'Young-Serif';
     src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    /* font-weight: normal;
+    font-style: normal; */
 }
 
 @font-face {
@@ -58,27 +62,46 @@ h1,h2,h3,h4,h6 {
     --fs-600: 2.5rem;
 
     --fs-body: var(--fs-400);
-    --fs-headline: var(--fs-500);
+    --fs-heading: var(--fs-500);
     --fs-title: var(--fs-600);
 }
 
 
-/*************** CONTAINER CLASSES *************/
+/*************** CLASSES *************/
 
-/* debug */
-.container,
-.container-dynamic {
-    /* border: 1px solid red; */
+.fw-bold {
+    font-weight: var(--fw-bold);
+}
+
+/* TODO */
+.heading {
+    font-family: var(--ff-heading);
+    font-size: var(--fs-heading);
+    color: var(--clr-brown-800);
+}
+.heading-purple {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-bold);
 }
 
 .container {
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 @media (1440px < width) {
     .container-dynamic {
         padding: 2rem;
     }
+}
+
+.container-purple {
+    margin: 0 2rem;
+    background-color: var(--clr-rose-800-alpha);
+}
+
+.container-purple * {
+    font-family: var(--ff-body);
+    color: var(--clr-rose-800);
 }
 
 /*************** GERNERAL STYLING *************/
@@ -90,12 +113,13 @@ body {
 }
 
 .page-container {
-    max-width: 1140px;
+    width: 100%;
     background-color: white;
 }
 
 @media (1440px < width) {
     .page-container {
+        max-width: 1140px;
         margin: 5rem auto;
         width: 80%;
     }
@@ -107,16 +131,7 @@ body {
     object-fit: cover;
 }
 
-h1,h2 {
-    font-family: var(--ff-heading);
-}
-
-h1 {
+.title {
     font-size: var(--fs-title);
     color: var(--crl-stone-900);
-}
-
-h2 {
-    font-size: var(--fs-headline);
-    color: var(--clr-brown-800);
 }

@@ -6,35 +6,30 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
+I made x versions of my solution, to discuss the strengths and weaknesses of each approach. Each version is in a seperate branch. The main branch serves as a boilerplate for this challange.
 
+- 
 
-### Links
+## Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-
 ### What I learned
 
-
-
-### Continued development
+*coming soon...*
 
 ### Useful resources
 
+- [bootstrap v5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Kevin Powell Youtube-playlist](https://www.youtube.com/playlist?list=PL4-IK0AVhVjNDRHoXGort7sDWcna8cGPA)
+
+I did not use bootstrap to build this but I copied concepts from this framework.
+
+From the Kevin Powell Playlist the first three videos also gave me some hints how to implement some things.
+
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@MetalRick84](https://www.frontendmentor.io/profile/MetalRick84)

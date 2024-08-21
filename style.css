@@ -27,13 +27,6 @@
     --clr-rose-800-alpha: hsla(332, 51%, 32%, 0.1);
     --clr-rose-50: hsl(330, 100%, 98%);
 
-    /* fonts */
-    --ff-primary: 'Outfit';
-    --ff-secondary: 'Young-Serif';
-
-    --ff-body: var(--ff-primary);
-    --ff-headlines: var(--ff-secondary);
-
     /* spacing */
     --size-100: 0.25rem;
     --size-200: 0.5rem;
@@ -44,6 +37,13 @@
     --size-700: 3rem;
     --size-800: 4rem;
     --size-900: 5rem;
+    
+    /* fonts */
+    --ff-primary: 'Outfit';
+    --ff-secondary: 'Young-Serif';
+
+    --ff-body: var(--ff-primary);
+    --ff-headlines: var(--ff-secondary);
 }
 
 /*************** UTILITY CLASSES *************/
@@ -51,6 +51,29 @@
 
 
 /*************** GENERAL STYLING *************/
+
+/* Typography */
+
+body {
+    font-family: var(--ff-body);
+}
+
+h1,
+h2 {
+    font-family: var(--ff-headlines);
+}
+
+.title {
+    font-size: var(--size-700);
+    color: var(--clr-stone-900);
+}
+
+h2 {
+    font-size: var(--size-600);
+    color: var(--clr-brown-800);
+}
+
+/* Layout */
 
 body {
     background-color: var(--clr-stone-100);
@@ -61,7 +84,5 @@ body {
     margin-top: var(--size-900);
     margin-left: auto;
     margin-right: auto;
-    padding: var(--size-600);
-    background-color: white;
-    
+    background-color: white;  
 }

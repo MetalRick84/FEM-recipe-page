@@ -16,16 +16,23 @@
 
 :root {
     /* colors */
-    --stone-100: hsl(30, 54%, 90%);
-    --stone-150: hsl(30, 18%, 87%);
-    --stone-600: hsl(30, 10%, 34%);
-    --stone-900: hsl(24, 5%, 18%);
+    --clr-stone-100: hsl(30, 54%, 90%);
+    --clr-stone-150: hsl(30, 18%, 87%);
+    --clr-stone-600: hsl(30, 10%, 34%);
+    --clr-stone-900: hsl(24, 5%, 18%);
 
-    --brown-800: hsl(14, 45%, 36%);
+    --clr-brown-800: hsl(14, 45%, 36%);
 
-    --rose-800: hsl(332, 51%, 32%);
-    --rose-800-alpha: hsla(332, 51%, 32%, 0.1);
-    --rose-50: hsl(330, 100%, 98%);
+    --clr-rose-800: hsl(332, 51%, 32%);
+    --clr-rose-800-alpha: hsla(332, 51%, 32%, 0.1);
+    --clr-rose-50: hsl(330, 100%, 98%);
+
+    /* fonts */
+    --ff-primary: 'Outfit';
+    --ff-secondary: 'Young-Serif';
+
+    --ff-body: var(--ff-primary);
+    --ff-headlines: var(--ff-secondary);
 
     /* spacing */
     --size-100: 0.25rem;
@@ -45,4 +52,16 @@
 
 /*************** GENERAL STYLING *************/
 
+body {
+    background-color: var(--clr-stone-100);
+}
 
+.page-container {
+    width: 80%;
+    margin-top: var(--size-900);
+    margin-left: auto;
+    margin-right: auto;
+    padding: var(--size-600);
+    background-color: white;
+    
+}

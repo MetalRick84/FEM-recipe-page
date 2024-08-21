@@ -66,6 +66,16 @@ ul, ol {
     --fs-title: var(--fs-600);
 }
 
+/************* SPACING ***********/
+
+:root {
+    --size-200: 0.5rem;
+    --size-300: 0.75rem;
+    --size-400: 1rem;
+    --size-500: 1.5rem;
+    --size-600: 2rem;
+    --size-700: 3rem;
+}
 
 /*************** CLASSES *************/
 
@@ -73,13 +83,14 @@ ul, ol {
     font-weight: var(--fw-bold);
 }
 
-/* TODO */
 .heading {
+    padding-bottom: var(--size-400);
     font-family: var(--ff-heading);
     font-size: var(--fs-heading);
     color: var(--clr-brown-800);
 }
 .heading-purple {
+    padding-bottom: var(--size-400);
     font-family: var(--ff-body);
     font-weight: var(--fw-bold);
 }

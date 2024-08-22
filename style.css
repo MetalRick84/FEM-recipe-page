@@ -99,7 +99,7 @@ ul, ol {
     padding: 1rem 2rem;
 }
 
-@media (1440px < width) {
+@media (768px < width) {
     .container-dynamic {
         padding: 2rem;
     }
@@ -128,9 +128,9 @@ body {
     background-color: white;
 }
 
-@media (1440px < width) {
+@media (768px < width) {
     .page-container {
-        max-width: 1140px;
+        max-width: 768px;
         margin: 5rem auto;
         width: 80%;
     }
@@ -140,9 +140,12 @@ body {
     width: 100%;
     height: 280px;
     object-fit: cover;
+
 }
 
 .title {
+    padding-bottom: var(--size-500);
+    font-family: var(--ff-heading);
     font-size: var(--fs-title);
     color: var(--crl-stone-900);
 }

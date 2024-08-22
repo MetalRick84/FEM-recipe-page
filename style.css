@@ -92,6 +92,8 @@ ul, ol {
 
 /*************** CLASSES *************/
 
+/* fonts */
+
 .fw-bold {
     font-weight: var(--fw-bold);
 }
@@ -107,6 +109,8 @@ ul, ol {
     font-family: var(--ff-body);
     font-weight: var(--fw-bold);
 }
+
+/* container */
 
 .container {
     padding: 1rem 2rem;
@@ -126,6 +130,17 @@ ul, ol {
 .container-purple * {
     font-family: var(--ff-body);
     color: var(--clr-rose-800);
+}
+
+/* misc */
+
+.bottom-line {
+    border-bottom: 2px solid var(--clr-stone-150);
+}
+
+.text-brown-bold {
+    color: var(--clr-brown-800);
+    font-weight: var(--fw-bold);
 }
 
 /*************** GERNERAL STYLING *************/
@@ -161,4 +176,17 @@ body {
     font-family: var(--ff-heading);
     font-size: var(--fs-title);
     color: var(--crl-stone-900);
+}
+
+#nutritionTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: var(--size-400);
+}
+
+#nutritionTable tr {
+}
+
+#nutritionTable td {
+    padding-block: var(--size-400);
 }

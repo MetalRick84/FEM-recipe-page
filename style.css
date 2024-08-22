@@ -113,7 +113,7 @@ ul, ol {
 /* container */
 
 .container {
-    padding: 1rem 2rem;
+    padding: 1rem 2rem; /* TODO make with vars! */
 }
 
 @media (768px < width) {
@@ -135,6 +135,7 @@ ul, ol {
 /* misc */
 
 .bottom-line {
+    margin: 0 var(--size-600);
     border-bottom: 2px solid var(--clr-stone-150);
 }
 

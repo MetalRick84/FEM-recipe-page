@@ -77,6 +77,19 @@ ul, ol {
     --size-700: 3rem;
 }
 
+/*************** RADIUS *************/
+
+.rounded-300 {border-radius: var(--size-300); }
+.rounded-500 {border-radius: var(--size-500); }
+
+@media (768px < width) {
+    .rounded-300-dynamic {border-radius: var(--size-300); }
+    .rounded-500-dynamic {border-radius: var(--size-500); }
+} 
+
+
+
+
 /*************** CLASSES *************/
 
 .fw-bold {

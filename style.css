@@ -178,13 +178,30 @@ body {
     color: var(--crl-stone-900);
 }
 
+#instructionsList {
+    list-style-type: none;
+}
+
+#instructionsList li {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: var(--size-400);
+}
+
+#instructionsList li .listmarker {
+    font-weight: var(--fw-bold);
+    color: var(--clr-brown-800);
+}
+
+#instructionsList li:not(:last-child) {
+    margin-bottom: var(--size-400);
+}
+
 #nutritionTable {
     width: 100%;
     border-collapse: collapse;
     margin-top: var(--size-400);
-}
-
-#nutritionTable tr {
 }
 
 #nutritionTable td {

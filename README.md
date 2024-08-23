@@ -4,8 +4,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/MetalRick84/FEM-recipe-page)
+- Live Site URL: [reinitestet.at](https://reinitestet.at/FrontEndMentor/recipe-page/)
 
 ### Useful resources
 

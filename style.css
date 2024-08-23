@@ -98,6 +98,7 @@ ul, ol {
     --padding-container-y: var(--size-600);
 
     --padding-container-dynamic: var(--size-600);
+    --padding-container-purple: var(--size-500) var(--size-500);
 }
 
 /*************** BORDER RADII *************/
@@ -129,6 +130,7 @@ ul, ol {
     padding-bottom: var(--size-400);
     font-family: var(--ff-body);
     font-weight: var(--fw-bold);
+    color: var(--clr-rose-800);
 }
 
 /**** containers ****/
@@ -145,14 +147,13 @@ ul, ol {
 }
 
 .container-purple {
-    margin: 0 2rem;
-    padding: var(--size-400) var(--size-500);
+    margin: 0 var(--margin-container-x);
+    padding: var(--padding-container-purple);
     background-color: var(--clr-rose-800-alpha);
 }
 
 .container-purple * {
     font-family: var(--ff-body);
-    color: var(--clr-rose-800);
 }
 
 /**** misc ****/
@@ -217,7 +218,11 @@ body {
     color: var(--clr-brown-800);
 }
 
-#instructionsList li:not(:last-child) {
+/* #instructionsList li:not(:last-child) {
+    margin-bottom: var(--size-400);
+} */
+
+li:not(:last-child) {
     margin-bottom: var(--size-400);
 }
 

@@ -93,6 +93,11 @@ ul, ol {
     --size-500: 1.5rem;
     --size-600: 2rem;
     --size-700: 3rem;
+
+    --margin-container-x: var(--size-600);
+    --padding-container-y: var(--size-600);
+
+    --padding-container-dynamic: var(--size-600);
 }
 
 /*************** BORDER RADII *************/
@@ -129,13 +134,13 @@ ul, ol {
 /**** containers ****/
 
 .container {
-    margin: 0 var(--size-600);
-    padding: var(--size-600) 0;
+    margin: 0 var(--margin-container-x);
+    padding: var(--padding-container-y) 0;
 }
 
 @media (768px < width) {
     .container-dynamic {
-        padding: 2rem;
+        padding: var(--padding-container-dynamic);
     }
 }
 
